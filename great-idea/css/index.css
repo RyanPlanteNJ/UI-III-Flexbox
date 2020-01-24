@@ -69,15 +69,15 @@ body {
 }
 
 h1{
-	font-size: 50px;
+	font-size: 40px;
 }
 
 h2{
 	font-size: 30px;
 }
 
-p{
-font-size: 30px;
+p ul{
+font-size: 20px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -87,6 +87,7 @@ header{
 		background-image: linear-gradient(to right,#260c7d , #159fcc, #1e979a);
 		position: fixed;
 		z-index: 0;
+		height: 7%;
 }
 
 header a{
@@ -96,10 +97,6 @@ header a{
 	font-size: 20px;
 	width: CALC(21% - 200px);
 	text-align: center;
-}
-
-.header header img{
-	/* padding-left: 7%; */
 }
 
 .main{
@@ -177,9 +174,57 @@ header a{
 	padding-right: 2%;
 }
 
+.services_explain{
+	padding: 3%;
+}
+
 .main_services{
+	border-top: 2px black solid;
+	border-bottom: 4px black solid;
 	display: flex;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1%;
+}
+
+
+.service {
+	width: 600px;
+	border: 2px black solid;
+	background-color: #dedede;
+	margin: 20px;
+	padding: 20px;
+	/* height: 250px; */
+}
+
+
+.service button{
+	margin-top: 2%;
+	border-radius: 4px;
+	padding: 2% 6% 2% 6%;
+	background-color: white;
+
+}
+
+.end{
+	margin: 50px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.facts {
+	width: 45%;
+	font-size: 20px;
+}
+
+.facts ul{
+	padding: 20px 0 0 20px;
+	list-style: initial;
+}
+
+.facts li{
+	padding-top: 15px;
 }
 
 .contact {
@@ -187,12 +232,7 @@ header a{
 }
 
 footer{
-	padding: 1%;
+	margin: 3%;
 	width: 100%;
 	text-align: center;
-}
-
-
-.img_top{
-	padding:1%;
 }
