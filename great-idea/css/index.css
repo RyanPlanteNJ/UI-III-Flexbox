@@ -64,11 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* .shell {
-	width: 1800px;
-	margin: 0px;
-} */
+.shell {
+	background-color: #cccccc;
+}
 
+h1{
+	font-size: 50px;
+}
+
+p{
+font-size: 30px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 .navgation{
 		width: 1800px;
@@ -95,7 +102,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header header img{
-	padding-left: 7%;
+	/* padding-left: 7%; */
 }
 
 .main{
@@ -161,12 +168,11 @@ h1, h2, h3, h4, h5 {
 	font-size: 30px;
 }
 
-.content_2_mid p{
-	font-size: 30px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+.break img{
+	width: 100%;
 }
 
-.break img{
+.main_top img{
 	width: 100%;
 }
 
@@ -178,11 +184,6 @@ h1, h2, h3, h4, h5 {
 
 .content_3_mid h2{
 	font-size: 30px;
-}
-
-.content_3_mid p{
-	font-size: 30px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .services{
@@ -202,13 +203,13 @@ h1, h2, h3, h4, h5 {
 	font-size: 30px;
 }
 
-.contact p{
-	font-size: 30px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-
 footer{
 	padding: 1%;
 	width: 100%;
 	text-align: center;
+}
+
+
+.img_top{
+	padding:1%;
 }
