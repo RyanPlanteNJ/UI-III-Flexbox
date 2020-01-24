@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.shell {
+/* .shell {
 	width: 1800px;
 	margin: 0px;
-}
+} */
 
 
 .navgation{
@@ -91,7 +91,6 @@ h1, h2, h3, h4, h5 {
 	margin: 0 5%;
 	color: white;
 	font-size: 20px;
-	text-align: center;
 	width: CALC(21% - 200px);
 }
 
@@ -100,47 +99,62 @@ h1, h2, h3, h4, h5 {
 }
 
 .main{
-	padding: 10%;
+	padding: 5%;
 }
 
 
 .content_1{
 	margin: 1%;
-	width: 100%;
+	/* width: 100%; */
+	display: flex;
+	justify-content: space-around;
 }
 
-.content_1_box {
+/* .content_1_box {
 	vertical-align: top;
 	width: 48%;
-  display: inline-block;
-	text-align: center;
+  display: flex;
+	flex-flow: row;
+} */
+
+.innovation{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 }
+
 .content_1_box h1 {
 	font-size: 100px;
   width: 43%;
-	display: inline-block;
+	text-align: center;
+
 }
 
 .content_1_box p{
 	border: 1px black solid;
 	font-size: 20px;
 	width: 20%;
-	padding: 5px 0 5px 0;
-	margin: 0 0 0 350px;
+	text-align: center;
+
+	/* padding: 5px 0 5px 0;
+	margin: 0 0 0 350px; */
+}
+
+.features{
+	padding-right: 2%;
 }
 
 .content_2{
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	margin: 2%;
+		/* margin: 2%; */
 	padding: 1%;
 	width: 100%;
 }
 
 .content_2_mid{
 	padding: 1%;
-	width: 48%;
-	display: inline-block;
+	display: flex;
 }
 
 .content_2_mid h2{
@@ -158,8 +172,8 @@ h1, h2, h3, h4, h5 {
 
 .content_3_mid{
 	padding: 1%;
-	width: 33%;
-	display: inline-block;
+	display: flex;
+	align-content: space-between;
 }
 
 .content_3_mid h2{
@@ -170,6 +184,15 @@ h1, h2, h3, h4, h5 {
 	font-size: 30px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
+.services{
+	padding-right:2%;
+}
+
+.product{
+	padding-right: 2%;
+}
+
 
 .contact {
 	margin: 3%;
@@ -188,5 +211,4 @@ footer{
 	padding: 1%;
 	width: 100%;
 	text-align: center;
-	display: inline-block;
 }
