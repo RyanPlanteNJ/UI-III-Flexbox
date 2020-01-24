@@ -65,11 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .shell {
-	background-color: #cccccc;
+	background-color: rgba(#d5d5d5, 0.91);
 }
 
 h1{
 	font-size: 50px;
+}
+
+h2{
+	font-size: 30px;
 }
 
 p{
@@ -164,10 +168,6 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 	display: flex;
 }
 
-.content_2_mid h2{
-	font-size: 30px;
-}
-
 .break img{
 	width: 100%;
 }
@@ -182,10 +182,6 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 	align-content: space-between;
 }
 
-.content_3_mid h2{
-	font-size: 30px;
-}
-
 .services{
 	padding-right:2%;
 }
@@ -194,13 +190,13 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 	padding-right: 2%;
 }
 
+.main_services{
+	display: flex;
+	flex-flow: row wrap;
+}
 
 .contact {
 	margin: 3%;
-}
-
-.contact h2{
-	font-size: 30px;
 }
 
 footer{
