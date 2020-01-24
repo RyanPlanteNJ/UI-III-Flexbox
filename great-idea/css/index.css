@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.shell {
+body {
 	background-color: rgba(#d5d5d5, 0.91);
 }
 
@@ -81,28 +81,21 @@ font-size: 30px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.navgation{
-		width: 1800px;
+header{
+		width: 100%;
 		top: 0px;
 		background-image: linear-gradient(to right,#260c7d , #159fcc, #1e979a);
 		position: fixed;
 		z-index: 0;
 }
 
-.header {
-	width: 100%;
-	height: 5%;
-	text-align: center;
-}
-
-
-
-.header header a{
+header a{
 	text-decoration: none;
 	margin: 0 5%;
 	color: white;
 	font-size: 20px;
 	width: CALC(21% - 200px);
+	text-align: center;
 }
 
 .header header img{
@@ -163,7 +156,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 	width: 100%;
 }
 
-.content_2_mid{
+.content_mid{
 	padding: 1%;
 	display: flex;
 }
@@ -174,12 +167,6 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 
 .main_top img{
 	width: 100%;
-}
-
-.content_3_mid{
-	padding: 1%;
-	display: flex;
-	align-content: space-between;
 }
 
 .services{
